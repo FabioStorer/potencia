@@ -9,7 +9,9 @@ expoente = Number(expoente)
 aux = Number(aux)
 
 for (let i = 0; i <= expoente; i++) {
-    resultado = (resultado + (base + expoente))
+    resultado = (resultado + (base + base))
+    console.log(resultado)
 }
+resultado = resultado + base
 
 console.log(`A potencia do número informado é ${resultado}.`);
