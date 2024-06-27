@@ -6,7 +6,6 @@ let expoente = prompt('Digite agora o expoente:');
 
 for (let i = 1; i <= expoente; i++) {
     resultado = resultado + (base * expoente)
-    console.log(resultado)
 }
 
 console.log(`A potencia do número informado é ${resultado}.`);
