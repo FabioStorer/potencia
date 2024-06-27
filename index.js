@@ -3,9 +3,13 @@ let resultado = 0;
 
 let base = prompt('Digite um número que irei calcular a potencia do mesmo:');
 let expoente = prompt('Digite agora o expoente:');
+let aux = 0;
+base = Number(base)
+expoente = Number(expoente)
+aux = Number(aux)
 
-for (let i = 1; i <= expoente; i++) {
-    resultado = resultado + (base * expoente)
+for (let i = 0; i <= expoente; i++) {
+    resultado = (resultado + (base + expoente))
 }
 
 console.log(`A potencia do número informado é ${resultado}.`);
